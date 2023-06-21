@@ -56,14 +56,86 @@
             </li>
           </ul>
         </address>
+        <!-------Button Menu----->
+        <button type="button" class="menu-open-btn">
+          <svg class="icon-hamburger" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
+      </div>
+  <!-------1 MOBILE MENU-------->
+      <div class="mob-menu">
+        <div class="mob-menu-container">
+        <button type="button" class="menu-close-btn">
+          <svg class="icon-close-black" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+          <ul class="mob-menu-list list">
+            <li>
+              <a class="mob-menu-link current link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="mob-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+          <address class="mob-menu-address">
+            <ul class="mob-address list">
+              <li>
+                <a
+                  class="mob-mail-link link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="mob-tel-link link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-socialmedia-list list">
+            <li class="socialmedia-item">
+              <a class="social-link link" href="">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socialmedia-item">
+              <a class="social-link link" href="">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socialmedia-item">
+              <a class="social-link link" href="">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socialmedia-item">
+              <a class="social-link link" href="">
+                <svg class="social-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
+    <!-------1 SECTION HERO--------->
     <main>
-      <!----1 SECTION HERO---->
       <section class="section hero-section">
         <div class="container hero-container">
           <h1 class="hero-name">Effective Solutions for Your Business</h1>
-          <button type="button" class="header-button" data-modal-open>
+          <button type="button" class="hero-button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -131,7 +203,8 @@
           <ul class="list picture-list">
             <li class="picture-list-image">
               <img
-                src="./images/a_img_1.jpg"
+                srcset="./images/monitor-1.jpg 1x, ./images/monitor-2x.jpg 2x"
+                src="./images/monitor-1.jpg"
                 alt="monitor"
                 width="360"
                 height="300"
@@ -139,7 +212,8 @@
             </li>
             <li class="picture-list-image">
               <img
-                src="./images/a_img_2.jpg"
+                srcset="./images/phone-1.jpg 1x, ./images/phone-2x.jpg 2x"
+                src="./images/phone-1.jpg"
                 alt="phone"
                 width="360"
                 height="300"
@@ -147,7 +221,8 @@
             </li>
             <li class="picture-list-image">
               <img
-                src="./images/a_img_3.jpg"
+                srcset="./images/notebook-1.jpg 1x, ./images/notebook-2x.jpg 2x"
+                src="./images/notebook-1.jpg"
                 alt="notebook and phone"
                 width="360"
                 height="300"
@@ -163,8 +238,12 @@
           <ul class="list list-team">
             <li class="list-team-image">
               <img
-                src="./images/mark_guerrero_img.jpg"
-                alt="photo_mark_guerrero"
+                srcset="
+                  ./images/mark-guerrero-1.jpg  1x,
+                  ./images/mark-guerrero-2x.jpg 2x
+                "
+                src="./images/mark-guerrero-1.jpg"
+                alt="photo-mark-guerrero"
                 width="264"
               />
               <div class="container-info">
@@ -204,8 +283,9 @@
             </li>
             <li class="list-team-image">
               <img
-                src="./images/tom_ford_img.jpg"
-                alt="photo_tom_ford"
+                srcset="./images/tom-ford-1.jpg 1x, ./images/tom-ford-2x.jpg 2x"
+                src="./images/tom-ford-1.jpg"
+                alt="photo-tom-ford"
                 width="264"
                 height="260"
               />
@@ -246,8 +326,12 @@
             </li>
             <li class="list-team-image">
               <img
-                src="./images/camila_garcia_img.jpg"
-                alt="photo_camila_garcia"
+                srcset="
+                  ./images/camila-garcia-1.jpg  1x,
+                  ./images/camila-garcia-2x.jpg 2x
+                "
+                src="./images/camila-garcia-1.jpg"
+                alt="photo-camila-garcia"
                 width="264"
                 height="260"
               />
@@ -288,8 +372,12 @@
             </li>
             <li class="list-team-image">
               <img
-                src="./images/daniel_wilson_img.jpg"
-                alt="photo_daniel_wilson"
+                srcset="
+                  ./images/daniel-wilson-1.jpg  1x,
+                  ./images/daniel-wilson-2x.jpg 2x
+                "
+                src="./images/daniel-wilson-1.jpg"
+                alt="photo-daniel-wilson"
                 width="264"
                 height="260"
               />
@@ -456,8 +544,8 @@
           <svg class="icon-close-black" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
-          <!-----MODAL FORM------>
         </button>
+        <!-----MODAL FORM------>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form>
           <div class="modal-field">
