@@ -34,6 +34,10 @@
     width: 100%;
     margin-bottom: 16px;
   }
+
+  .modal {
+    max-width: 392px;
+  }
 }
 
 /*------TABLET-------*/
@@ -95,18 +99,16 @@
 
   .header-address {
     display: block;
-    column-gap: 12px;
   }
 
-  .header-contact-list {
-    flex-direction: column;
-    gap: 12px;
+  .header-contact-list:not(:last-child) {
+    margin-bottom: 12px;
   }
 
   .header-address-link {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--text-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -219,7 +221,6 @@
 
   .header-list {
     display: flex;
-    gap: 40px;
   }
 
   .header-list .header-link:hover,
@@ -303,13 +304,26 @@
   }
 
   /*----2 Section Our Features----*/
+
+  .section-features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .about-features {
     display: flex;
     gap: 24px;
   }
 
   .about-features-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .section-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
   }
 
   .features-icon {
