@@ -96,6 +96,11 @@ img {
   text-transform: uppercase;
 }
 
+.address {
+  margin-left: auto;
+  font-style: normal;
+}
+
 .header-list {
   display: none;
 }
@@ -398,10 +403,9 @@ img {
 
 .list-team {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  row-gap: 72px;
+  gap: 72px;
 }
 
 .list-team-image {
@@ -619,6 +623,7 @@ img {
 /*------Footer Subscribe Form------*/
 .subscribe {
   margin-left: auto;
+  display: block;
 }
 
 .subscribe-input {
