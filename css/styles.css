@@ -34,8 +34,9 @@ h6 {
 
 .container {
   width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
+  max-width: 426px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -231,7 +232,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-social-link:hover,
@@ -317,7 +318,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -541,10 +542,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-.footer-logo-container {
-  margin-bottom: 72px;
-}
-
 .logo-logo {
   color: var(--accent-color);
   display: block;
@@ -575,7 +572,7 @@ img {
   color: var(--primary-background-color);
 }
 
-/*-----Footer SocialMedia-----*/
+/*------Footer Social Media------*/
 
 .footer-socialmedia-container {
   margin-bottom: 72px;
@@ -622,7 +619,6 @@ img {
 
 /*------Footer Subscribe Form------*/
 .subscribe {
-  margin-left: auto;
   display: block;
 }
 
@@ -655,7 +651,6 @@ img {
 /*------Footer Button------*/
 .subscribe-button {
   display: flex;
-  margin-top: 16px;
   height: 40px;
   align-items: center;
   justify-content: center;
