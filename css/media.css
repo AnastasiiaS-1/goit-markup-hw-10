@@ -1,10 +1,12 @@
-
-
 /*-------------------MOBILE------------------*/
 
 @media screen and (max-width: 767px) {
   .section-title {
     text-align: center;
+  }
+
+  .hero-name {
+    margin-bottom: 72px;
   }
 
   .logo-logo {
@@ -116,7 +118,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-/*---------Hero--------*/
+  /*---------Hero--------*/
   .hero-section {
     width: 100%;
     height: 436px;
@@ -141,14 +143,19 @@
   }
 
   .hero-name {
-    margin-bottom: 36px;
+    font-weight: 700px;
+    font-size: 56px;
+    max-width: 496px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 66px;
   }
 
   .section-title {
     text-align: left;
   }
 
-/*-----2 Our Features-----*/
+  /*-----2 Our Features-----*/
   .about-features {
     row-gap: 72px;
     column-gap: 24px;
@@ -273,6 +280,9 @@
     display: flex;
     gap: 40px;
     margin-top: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
   }
 
   .header-address-link {
@@ -286,7 +296,7 @@
 
   /*-------Hero-----*/
   .hero-section {
-    width: 100%;
+    max-width: 1440px;
     height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -311,7 +321,12 @@
   }
 
   .hero-name {
-    margin-bottom: 48px;
+    font-weight: 700px;
+    font-size: 56px;
+    max-width: 496px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 82px;
   }
 
   /*----2 Section Our Features----*/
