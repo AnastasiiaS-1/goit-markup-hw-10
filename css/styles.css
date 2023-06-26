@@ -14,7 +14,6 @@ body {
   background-color: var(--page-background-color);
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  -webkit-tap-highlight-color: transparent;
 }
 
 *,
@@ -953,7 +952,7 @@ img {
   border: 1px solid transparent;
 }
 
-/*--------SECTION PORTFOLIO--DESKTOP----*/
+/*--------SECTION PORTFOLIO--DESKTOP ONLY----*/
 
 @media screen and (min-width: 1158px) {
   .container {
