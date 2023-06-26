@@ -302,7 +302,6 @@
     height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
-    justify-content: center;
     background-color: var(--main-text-color);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
