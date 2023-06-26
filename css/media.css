@@ -103,10 +103,8 @@
 
   .header-address {
     display: block;
-  }
-
-  .header-contact-list:not(:last-child) {
-    margin-bottom: 12px;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .header-address-link {
@@ -119,6 +117,10 @@
   }
 
   /*---------Hero--------*/
+  .logo {
+    margin-right: 76px;
+  }
+
   .hero-section {
     width: 100%;
     height: 436px;
@@ -148,7 +150,7 @@
     max-width: 496px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 66px;
+    margin-bottom: 36px;
   }
 
   .section-title {
@@ -279,7 +281,6 @@
   .header-address {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -326,7 +327,7 @@
     max-width: 496px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 82px;
+    margin-bottom: 48px;
   }
 
   /*----2 Section Our Features----*/
