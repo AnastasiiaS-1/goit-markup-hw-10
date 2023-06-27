@@ -108,6 +108,10 @@
     display: block;
   }
 
+  .header-contact-list:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
   .header-address-link {
     font-weight: 400;
     font-size: 12px;
@@ -170,7 +174,6 @@
   }
 
   /*------4 Section Team-----*/
-
   .section-team > .container {
     max-width: 582px;
   }
@@ -187,7 +190,6 @@
   }
 
   /*------5 Section Customers-----*/
-
   .container-customers {
     max-width: 582px;
   }
@@ -201,7 +203,6 @@
   }
 
   /*-----------Footer--------*/
-
   .footer-container {
     max-width: 582px;
   }
@@ -295,6 +296,10 @@
     letter-spacing: 0.32px;
   }
 
+  .header-contact-list:not(:last-child) {
+    margin-bottom: 0;
+  }
+
   .header-address-link {
     font-weight: 400;
     font-size: 16px;
@@ -340,7 +345,6 @@
   }
 
   /*----2 Section Our Features----*/
-
   .section-features {
     padding-top: 120px;
     padding-bottom: 120px;
