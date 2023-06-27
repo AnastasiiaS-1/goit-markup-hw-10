@@ -45,6 +45,18 @@
   }
 }
 
+@media screen and (min-width: 331px) and (max-width: 427px) { 
+.mob-phone-link {
+    font-size: 26px;
+}
+}
+
+@media screen and (max-width: 330px) { 
+.mob-phone-link {
+    font-size: 20px;
+}
+}
+
 /*-----------------------TABLET------------------------*/
 
 @media screen and (min-width: 768px) {
