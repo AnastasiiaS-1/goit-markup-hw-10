@@ -188,6 +188,10 @@
 
   /*------5 Section Customers-----*/
 
+  .container-customers {
+    max-width: 582px;
+  }
+
   .about-customers {
     column-gap: 24px;
   }
@@ -197,6 +201,10 @@
   }
 
   /*-----------Footer--------*/
+
+  .footer-container {
+    max-width: 582px;
+  }
 
   .footer-container {
     display: flex;
