@@ -106,8 +106,6 @@
 
   .header-address {
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
 
   .header-address-link {
@@ -174,7 +172,7 @@
   /*------4 Section Team-----*/
 
   .section-team > .container {
-    max-width: 552px;
+    max-width: 582px;
   }
 
   .list-team {
@@ -190,9 +188,8 @@
 
   /*------5 Section Customers-----*/
 
-
   .about-customers {
-    column-gap: 24px;    
+    column-gap: 24px;
   }
 
   .about-customers-item {
@@ -200,6 +197,7 @@
   }
 
   /*-----------Footer--------*/
+
   .footer-container {
     display: flex;
     flex-wrap: wrap;
