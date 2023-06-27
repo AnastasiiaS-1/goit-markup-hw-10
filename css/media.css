@@ -21,13 +21,20 @@
     justify-content: center;
   }
 
+  .footer-logo-container {
+    margin-bottom: 72px;
+  }
+
   .footer-text {
     margin-left: auto;
     margin-right: auto;
   }
 
+  .footer-socialmedia-container {
+    margin-bottom: 72px;
+  }
+
   .footer-title {
-    margin-top: 72px;
     text-align: center;
   }
 
@@ -45,16 +52,16 @@
   }
 }
 
-@media screen and (min-width: 331px) and (max-width: 427px) { 
-.mob-phone-link {
+@media screen and (min-width: 331px) and (max-width: 427px) {
+  .mob-phone-link {
     font-size: 26px;
-}
+  }
 }
 
-@media screen and (max-width: 330px) { 
-.mob-phone-link {
+@media screen and (max-width: 330px) {
+  .mob-phone-link {
     font-size: 20px;
-}
+  }
 }
 
 /*-----------------------TABLET------------------------*/
