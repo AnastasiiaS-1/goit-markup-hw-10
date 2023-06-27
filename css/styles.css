@@ -554,7 +554,7 @@ img {
 
 /*------Footer Social Media------*/
 
-.footer-title {  
+.footer-title {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -630,10 +630,10 @@ img {
   align-items: center;
   justify-content: center;
   min-width: 165px;
-  margin: 0;
-  border: none;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0;
   border-radius: 4px;
-  padding: 8px 24px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--page-background-color);
   background-color: #4d5ae5;
